@@ -1,10 +1,10 @@
 {
     "id" : "org.gnome.gitlab.bazylevnik0.Convolution",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "45",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
-        "org.freedesktop.Sdk.Extension.node18",
+        "org.freedesktop.Sdk.Extension.node20",
         "org.freedesktop.Sdk.Extension.typescript"
     ],
     "command" : "org.gnome.gitlab.bazylevnik0.Convolution",
@@ -15,7 +15,7 @@
         "--socket=wayland"
     ],
     "build-options" : {
-        "append-path" : "/usr/lib/sdk/typescript/bin:/usr/lib/sdk/node18/bin"
+        "append-path" : "/usr/lib/sdk/typescript/bin:/usr/lib/sdk/node20/bin"
     },
     "cleanup" : [
         "/include",
@@ -34,12 +34,12 @@
             "builddir" : true,
             "buildsystem" : "meson",
              "sources" : [
-		{
-		  "url" : "https://gitlab.gnome.org/bazylevnik0/convolution.git",
-		  "commit" : "f732ba438c504a2f9b0deda51c012c9ffb00238d",
-		  "type" : "git"
-		}
-	      ]
+                {
+                    "type" : "git",
+                    "url" : "https://gitlab.gnome.org/bazylevnik0/convolution.git",
+                    "commit" : "e2229ee7e2d8016e522cd7262e7a54143935febd"
+                }
+            ]
         }
     ]
 }
