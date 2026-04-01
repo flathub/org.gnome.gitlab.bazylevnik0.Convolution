@@ -21,7 +21,3 @@ flatpak run org.gnome.gitlab.bazylevnik0.Convolution
 git clone git@github.com:flathub/org.gnome.gitlab.bazylevnik0.Convolution.git
 flatpak run org.flatpak.Builder build-dir --user --ccache --force-clean --install org.gnome.gitlab.bazylevnik0.Convolution.json
 ```
-
----
-
-**Technologies**: GNOME, GTK4, Libadwaita, JavaScript, TypeScript
