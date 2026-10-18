@@ -1,10 +1,10 @@
 {
     "id" : "org.gnome.gitlab.bazylevnik0.Convolution",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "50",
+    "runtime-version" : "51",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
-        "org.freedesktop.Sdk.Extension.node20",
+        "org.freedesktop.Sdk.Extension.node22",
         "org.freedesktop.Sdk.Extension.typescript"
     ],
     "command" : "org.gnome.gitlab.bazylevnik0.Convolution",
@@ -15,7 +15,7 @@
         "--socket=wayland"
     ],
     "build-options" : {
-        "append-path" : "/usr/lib/sdk/typescript/bin:/usr/lib/sdk/node20/bin"
+        "append-path" : "/usr/lib/sdk/typescript/bin:/usr/lib/sdk/node22/bin"
     },
     "modules" : [
         {
